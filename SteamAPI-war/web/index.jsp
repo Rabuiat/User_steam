@@ -12,6 +12,7 @@
         <title>Steam_user</title>
     </head>
     <body>
+        
         <form method="POST" action="FrontController">
         <h1>Login usuário Steam:</h1>
         <p><input type="text" name="nome" placeholder="nome"/></p>
