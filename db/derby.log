@@ -63,3 +63,5 @@ java.sql.SQLException: Ocorreu uma falha de autenticação da conexão.  Motivo: Au
 ============= end nested exception, level (1) ===========
 Cleanup action completed
 Thu Apr 28 09:21:59 BRT 2016 Thread[DRDAConnThread_2,5,main] (DATABASE = Steam), (DRDAID = {1}), Ocorreu uma falha de autenticação da conexão.  Motivo: Autenticação inválida..
+----------------------------------------------------------------
+Thu Apr 28 10:21:14 BRT 2016: Shutting down Derby engine

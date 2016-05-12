@@ -5,11 +5,20 @@
  */
 package com.br.lp3.DAO;
 
+import java.util.List;
+import javax.ejb.Local;
+
+
 /**
  *
- * @author 41411803
+ * @author 31596861
+     * @param <E>
  */
-public interface GenericDAO {
-    
+@Local
+public interface GenericDAO<E>{
+    public void persist(E e);// CREATE - UPDATE
+    public List<E> find();// READ
+    public E findById(long id);
+    public void remove(E e);//DELETE  
     
 }

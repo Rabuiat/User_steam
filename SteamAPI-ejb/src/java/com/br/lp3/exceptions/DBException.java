@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.br.lp3.war.command;
+package com.br.lp3.exceptions;
 
 /**
  *
- * @author 41411803
+ * @author 31596861
  */
-public class Command {
+public class DBException extends RuntimeException{
+    
+    public DBException(DBExceptionEnum msg){
+        super(msg.toString());
+    }
     
 }
